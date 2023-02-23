@@ -10,6 +10,7 @@ const initialUsers = () => {
         { id: createId(), kullaniciadi: "mücahit", sifre: "mcht12" },
         { id: createId(), kullaniciadi: "mustafa", sifre: "mstf12" },
         { id: createId(), kullaniciadi: "mehmet", sifre: "mhmt12" },
+        { id: createId(), kullaniciadi: "abdullah", sifre: "abd12" }
     ];
     return initialUserList;
 };
