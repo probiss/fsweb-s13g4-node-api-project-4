@@ -24,6 +24,7 @@ const getAllUsers = () => {
 const createUser = (user) => {
     user.id = createId();
     users.push(user);
+
     return Promise.resolve(user);
 };
 
@@ -33,6 +34,7 @@ const findUser = (user) => {
         if (
             userItem.kullaniciadi == user.kullaniciadi &&
             userItem.sifre == user.sifre
+            
         ) {
             isExistUser = true;
             return isExistUser;
